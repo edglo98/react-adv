@@ -17,7 +17,7 @@ export const Navigation = () => {
                                     <li key={ route.path }>
                                         <NavLink
                                             className={ ({ isActive }) => !isActive ? 'nav-active' : '' } 
-                                            to={ route.path }
+                                            to={ route.to }
                                         >
                                             { route.name }
                                         </NavLink>

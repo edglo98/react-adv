@@ -1,9 +1,9 @@
-const LazyPage2 = () => {
+const LazyPage1 = () => {
   return (
     <div>
-      lazy page 2
+      <h1>lazy page 1</h1>
     </div>
   )
 }
 
-export default LazyPage2
+export default LazyPage1
